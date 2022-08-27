@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Inicio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+
+     <!-- Custom styles for this template -->
+     <link href="product.css" rel="stylesheet">
+
+
+  <style>
+    
+
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div>
+     <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="navbar-brand" href="index.html">
+        <img class="rounded-circle" src="img/InnovaTech.png" alt="Generic placeholder image" width="45" height="45"> Innova Tech
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="contactanos.html">Contactanos</a>
+          </li> -->
+        </ul>
+      </div>
+       <!-- barra de busqueda -->
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+
+    </nav>
+  </div>
+
+   <!-- Carousel de las imagenes en movimiento -->
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/cliente.jpg" alt="Los Angeles" width="1100" height="300">
+        <div class="carousel-caption">
+          <h3><b>Servicio al Cliente</b></h3>
+          <p>Brindamos el mejro servicio a nuestros usuarios</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/soporte2.1.jpg" class="img-thumbnail" alt="Cinque Terre" width="1100" height="300">
+        <div class="carousel-caption">
+          <h3><b>Soporte Técnico</b></h3>
+          <p>Reparaciones, Implementaciones, Intalaciones y Manteniemiento.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/tecnologia1.jpg" alt="New York" width="1100" height="300">
+        <div class="carousel-caption">
+          <h3><b>Solución de Problemas Técnicos</b></h3>
+          <p>Somos expertos en el área</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/pro.jpg" alt="New York" width="1100" height="300">
+        <div class="carousel-caption">
+          <h3><b>Desarrollo de Software</b></h3>
+          <p>Python3, Java, HTML, CSS, Javascript etc.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Control de las imagenes en movimiento -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+   <!-- el contenido de la pagina -->
+
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">Nuestros Servicios</h1>
+      <p class="lead font-weight-normal">
+        Nuestro compromiso es satisfacer las necesidades de nuestros clientes, brindandoles los mejores Servicios con mayor calidad.
+      </p>
+      
+      
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5"> <b>Soporte Técnico</b> </h2>
+        <p class="lead">Reparaciones, Implementaciones, Intalaciones y Manteniemiento.</p>
+      </div>
+      <div>
+        <img src="img/soporte.jpg" class="img-thumbnail" alt="Cinque Terre" width="400" height="300">
+      </div>
+      <br>
+      <a class="btn btn-secondary" href="#">Más Detalles »</a>
+      <br>
+      <br>
+    </div>
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+        <h2 class="display-5"> <b>Desarrollo de Software</b> </h2>
+        <p class="lead">Python3, Java, HTML, CSS, Javascript etc.</p>
+      </div>
+      <div >
+        <img src="img/software.jpg" class="img-thumbnail" alt="Cinque Terre" width="400" height="300">
+      </div>
+      <br>
+      <a class="btn btn-secondary" href="#">Más Detalles »</a>
+      <br>
+      <br>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+        <h2 class="display-5"><b>Servicio al Cliente</b></h2>
+        <p class="lead">Atención instantarea a todas sus quejas y problemas.</p>
+      </div>
+      <div >
+        <img src="img/img_avatar3.png" class="img-thumbnail" alt="Cinque Terre" width="400" height="300">
+      </div>
+      <br>
+      <a class="btn btn-secondary" href="#">Más Detalles »</a>
+      <br>
+      <br>
+    </div>
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Implementación de Redes Empresariales</h2>
+          <p class="lead">Redes Privadas y Publicas para pequeñas y grandes Empresas.</p>
+        </div>
+        <div>
+          <img src="img/redes.jpg" class="img-thumbnail" alt="Cinque Terre" width="400" height="300">
+        </div>
+        <br>
+        <a class="btn btn-secondary" href="#">Más Detalles »</a>
+        <br>
+        
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+
+
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example2" class="form-control" />
+                <label class="form-label" for="form5Example2">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+         Para adquirir nuestros Servicios contactanos al número <b>829-xxx-xxxx/Ext 80</b>. 
+         Para recibir antención al cliente llamanos al número <b>809-xxx-xxxx/Ext 403</b>. 
+         Para mayor información visita nuetras Redes sociales.
+        </p>
+      </section>
+      <!-- Section: Text -->
+
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Facebook</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">www.facebook.com/innovatech</a>
+              </li>
+
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Twitter</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">www.twetter.com/innovatech</a>
+              </li>
+
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Gmail</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">innovatech@gmail.com</a>
+              </li>
+
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Instagram</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">www.instagram.com/innovatech</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="index.html">Innova Tech.</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+</body>
+
+</html>
